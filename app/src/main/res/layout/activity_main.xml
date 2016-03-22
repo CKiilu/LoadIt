@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.scurrae.chris.loadit.MainActivity">
+    tools:context="com.scurrae.chris.loadit.MainActivity"
+    android:scrollbars="vertical">
 
     <com.github.glomadrian.roadrunner.IndeterminateRoadRunner
         android:id="@+id/two_way"
@@ -30,5 +31,5 @@
         lib:path_original_height="@integer/github_original_height"
         lib:path_animation_type="twoWay"
         />
-    Material
+
 </RelativeLayout>
