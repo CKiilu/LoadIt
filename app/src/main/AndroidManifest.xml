@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f73f308f3a6e4611c27e7673639b0b53880d1d64" />
     </application>
 
 </manifest>
